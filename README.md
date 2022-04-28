@@ -1,0 +1,2 @@
+# EFCore.CU.GenericRepository.Common
+Nuget Package with support for .NET 6 , GenericRepository Pattern and Dependency Injection. It is built for microservices that will only be responsible for Add and Update operations in a Distributed Microservices architecture to make a project more efficient in terms of scalability. DataContext must be provided from the project where this nuget package is included. It only includes Repository Add and Update Methods.
