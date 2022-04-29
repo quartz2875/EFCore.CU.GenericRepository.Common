@@ -1,6 +1,10 @@
 
+/*
+** BurakQuartz v1.0.0 ()
+** Copyright © 2022 BurakQuartz. All rights reserved.
+*/
+using EFCore.CU.GenericRepository.Common.Application;
 using EFCore.CU.GenericRepository.Common.Persistence;
-using EFCore.GenericRepository.Common.Application;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace EFCore.CU.GenericRepository.Common.Extensions

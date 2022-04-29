@@ -1,8 +1,12 @@
 
-using EFCore.GenericRepository.Common.Entities;
+/*
+** BurakQuartz v1.0.0 ()
+** Copyright © 2022 BurakQuartz. All rights reserved.
+*/
+using EFCore.CU.GenericRepository.Common.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFCore.GenericRepository.Common.Application
+namespace EFCore.CU.GenericRepository.Common.Application
 {
     public interface IGenericRepository<TContext, T, TId>
         where TContext : DbContext

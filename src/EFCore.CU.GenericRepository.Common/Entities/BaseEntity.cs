@@ -1,6 +1,10 @@
+/*
+** BurakQuartz v1.0.0 ()
+** Copyright © 2022 BurakQuartz. All rights reserved.
+*/
 using System.ComponentModel.DataAnnotations;
 
-namespace EFCore.GenericRepository.Common.Entities
+namespace EFCore.CU.GenericRepository.Common.Entities
 {
     public class BaseEntity<T>
     {

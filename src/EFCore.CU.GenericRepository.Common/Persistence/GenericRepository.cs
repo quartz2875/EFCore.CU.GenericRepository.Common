@@ -1,6 +1,9 @@
-
-using EFCore.GenericRepository.Common.Application;
-using EFCore.GenericRepository.Common.Entities;
+/*
+** BurakQuartz v1.0.0 ()
+** Copyright © 2022 BurakQuartz. All rights reserved.
+*/
+using EFCore.CU.GenericRepository.Common.Application;
+using EFCore.CU.GenericRepository.Common.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCore.CU.GenericRepository.Common.Persistence
