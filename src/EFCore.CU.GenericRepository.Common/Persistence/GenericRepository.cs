@@ -2,6 +2,10 @@
 ** BurakQuartz v1.0.0 ()
 ** Copyright © 2022 BurakQuartz. All rights reserved.
 */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using EFCore.CU.GenericRepository.Common.Application;
 using EFCore.CU.GenericRepository.Common.Entities;
 using Microsoft.EntityFrameworkCore;
