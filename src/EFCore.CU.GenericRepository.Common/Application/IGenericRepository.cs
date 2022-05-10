@@ -74,21 +74,6 @@ namespace EFCore.CU.GenericRepository.Common.Application
         /// <param name="entity">
         ///    A <see cref="IEnumerable<T>"/> represents the Generic IEnumerable Entity to be registered.
         /// </param>
-        void BulkInsert(IEnumerable<T> entities);
-        /// <summary>
-        ///   Used to add a collection asynchronously.
-        /// </summary>
-        /// <param name="entity">
-        ///    A <see cref="IEnumerable<T>"/> represents the Generic IEnumerable Entity to be registered.
-        /// </param>
-        Task BulkInsertAsync(IEnumerable<T> entities);
-
-        /// <summary>
-        ///  Saves all changes made in this context to the underlying database.
-        /// </summary>
-        /// <returns>
-        /// A <see cref="int"/> Freezes the total affected record information.
-        /// </returns>
 
         int SaveChanges();
         /// <summary>

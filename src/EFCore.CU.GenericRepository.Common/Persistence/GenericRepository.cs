@@ -3,7 +3,6 @@
 ** Copyright © 2022 BurakQuartz. All rights reserved.
 */
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EFCore.CU.GenericRepository.Common.Application;
@@ -25,16 +24,7 @@ namespace EFCore.CU.GenericRepository.Common.Persistence
             _context = context;
             _dbSet = _context.Set<T>();
         }
-        /// <inheritdoc>
-        public void BulkInsert(IEnumerable<T> entities)
-        {
-            throw new NotImplementedException();
-        }
-        /// <inheritdoc>
-        public Task BulkInsertAsync(IEnumerable<T> entities)
-        {
-            throw new NotImplementedException();
-        }
+
         /// <inheritdoc>
         public void Insert(T entity)
         {
